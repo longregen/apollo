@@ -4,7 +4,6 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
   workflow_dispatch:
 
 # Note: we'll reference actions by commits for 'reproducibility sakes' (we don't
